@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: 'Overpass', sans-serif;
+  width: 100%;
+height: 100%;
+}
+
+#__next{
+  height: 100%;
+}
+
+/* remove default styles of button */
+button {
+   border:none;
+   background-color:transparent;
+   outline:none;
 }
 
 a {
